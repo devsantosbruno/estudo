@@ -4,6 +4,6 @@ console.log(numbers)
 
 console.log('\nSolução:')
 
-for (v = 4; v >= 0; v--) {
+for (v = numbers.length - 1; v >= 0; v--) {
   console.log(numbers[v])
 }
